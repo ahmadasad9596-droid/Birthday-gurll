@@ -938,7 +938,7 @@
             <div class="surprise-card" onclick="openModal('cake')" role="button" tabindex="0" aria-label="Cut the Cake activity">
                 <span class="icon">🎂</span>
                 <div class="title">Cut the Cake</div>
-                <div class="desc">Tap to slice your 18th cake!</div>
+                <div class="desc">Tap to slice your 15th cake!</div>
             </div>
             <div class="surprise-card" onclick="openModal('memory')" role="button" tabindex="0" aria-label="Memory Flip game">
                 <span class="icon">🧩</span>
@@ -993,7 +993,7 @@
             const FORTUNES = [
                 '🌟 This year, you will discover a hidden talent that makes everyone go "whoa!"',
                 '🎯 Something you thought was lost will find its way back to you in the most unexpected way.',
-                '💫 A random Tuesday will turn into one of the best days of your 18th year — be ready for it.',
+                '💫 A random Tuesday will turn into one of the best days of your 15th year — be ready for it.',
                 '🚀 You will make a decision that changes everything — trust your gut, it knows the way.',
                 '🎨 A creative spark will hit you at 2 AM, and whatever you make will be legendary.',
                 '🤝 Someone unexpected will become your closest ally this year. Keep your heart open.',
@@ -1005,7 +1005,7 @@
 
             const VIBES = [
                 '🎤 Karaoke night — but only songs from the year you were born!',
-                '🌙 Midnight walk with your favorite playlist — 18 songs for 18 years.',
+                '🌙 Midnight walk with your favorite playlist — 15 songs for 15 years.',
                 '🍕 Cook the weirdest food combination you can think of. Eat it. Rate it.',
                 '📸 Photoshoot at a random location — gas station? park bench? iconic.',
                 '🎪 Recreate your childhood photos as an 18-year-old. The glow-up will be real.',
@@ -1015,7 +1015,7 @@
                 '🎬 Movie marathon — but every movie starts with the letter "Z".',
                 '🧁 Bake something from scratch. It will either be delicious or a great story.',
                 '📝 Write a letter to your 25-year-old self. Seal it. Hide it. Forget it. (Until you find it years later.)',
-                '🎪 Go to the nearest arcade or gaming zone and set a high score under the name "ZOBII18"'
+                '🎪 Go to the nearest arcade or gaming zone and set a high score under the name "ZOBII15"'
             ];
 
             const MEMORY_EMOJIS = [
@@ -1234,7 +1234,7 @@
                     case 'cake':
                         modalIcon.textContent = '🎂';
                         modalTitle.textContent = 'Cut the Cake';
-                        modalDesc.textContent = 'Tap the cake below to cut a slice. Go on, it\'s your 18th birthday! 🍰';
+                        modalDesc.textContent = 'Tap the cake below to cut a slice. Go on, it\'s your 15th birthday! 🍰';
                         modalExtra.innerHTML = `
                             <div class="cake-container">
                                 <div style="text-align: center;">
@@ -1264,7 +1264,7 @@
                     case 'fortune':
                         modalIcon.textContent = '🔮';
                         modalTitle.textContent = '15th Fortune';
-                        modalDesc.textContent = 'The stars have a message for your 18th year. Tap below to reveal it!';
+                        modalDesc.textContent = 'The stars have a message for your 15th year. Tap below to reveal it!';
                         modalExtra.innerHTML = `
                             <div id="fortuneResult" style="display:none;" class="fortune-result"></div>
                             <button class="action-btn" onclick="revealFortune()" id="fortuneBtn">🔮 Reveal My Fortune</button>
@@ -1274,7 +1274,7 @@
                     case 'vibe':
                         modalIcon.textContent = '🎲';
                         modalTitle.textContent = 'Birthday Vibe';
-                        modalDesc.textContent = 'Feeling bored? Tap to get a random activity idea for your 18th!';
+                        modalDesc.textContent = 'Feeling bored? Tap to get a random activity idea for your 15th!';
                         modalExtra.innerHTML = `
                             <div id="vibeResult" style="display:none;" class="vibe-result"></div>
                             <button class="action-btn" onclick="revealVibe()" id="vibeBtn">🎲 Give Me a Vibe</button>
